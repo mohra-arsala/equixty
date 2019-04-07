@@ -1,0 +1,24 @@
+<!-- <label> -->
+  <h2>
+  Position Name:
+  </h2>
+  <mat-form-field>
+      <mat-label>Position name</mat-label>
+      <mat-select [formControl]="position" required>
+        <mat-option [value]="position" *ngFor="let position of positions" >{{position}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+
+
+<!-- </label> -->
+
+<!-- <h4>Basic mat-select</h4>
+<mat-form-field>
+  <mat-label>Favorite food</mat-label>
+  <mat-select>
+    <mat-option *ngFor="let food of foods" [value]="food.value">
+      {{food.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field> -->

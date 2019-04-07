@@ -1,0 +1,7 @@
+<mat-form-field>
+    <mat-label>Location</mat-label>
+    <mat-select [formControl]="location" required>
+      <mat-option [value]="location" *ngFor="let location of locations" >{{location}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  
