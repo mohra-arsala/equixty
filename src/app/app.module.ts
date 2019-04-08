@@ -9,13 +9,15 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatSelectModule} from '@angular/material';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
 import { PayComponent } from './pay/pay.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EntryComponent,
     LocationComponent,
-    PayComponent
+    PayComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
